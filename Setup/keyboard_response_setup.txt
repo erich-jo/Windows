@@ -1,0 +1,14 @@
+Win+R → regedit → 레지스트리 편집기 → HKEY_CURRENT_USER → Control Panel → Accessibility → Keyboard Response → 하기 항목에 대한 데이터 값 설정
+- AutoRepeatDelay = 100
+- AutoRepeatRate = 1
+- DelayBeforeAcceptance = 0
+- Last Valid Wait = 0
+
+Win+R → regedit → 레지스트리 편집기 → HKEY_CURRENT_USER → Control Panel → Keyboard → 하기 항목에 대한 데이터 값 설정
+- KeyboardDelay = 0
+- KeyboardSpeed = 31
+
+제어판 → 키보드 → 키보드 속성 → 속도 → 하기 항목에 대한 속성값 설정
+- 재입력 시간 = 가장 짧게(포인터 위치 맨 오른쪽)
+- 반복 속도 = 가장 빠름(포인터 위치 맨 오른쪽)
+- 커서 깜빡임 속도 = 가장 빠름(포인터 위치 맨 오른쪽)
